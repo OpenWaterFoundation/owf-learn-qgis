@@ -1,4 +1,4 @@
-# Learn QGIS / Install QGIS
+# Learn QGIS / Install QGIS #
 
 Several versions of QGIS software are available for installation, depending on operating system and
 the features that are needed.
@@ -16,7 +16,7 @@ The following sections are included in this documentation:
 * [Run QGIS](#run-qgis)
 * [Next Steps](#next-steps)
 
-## Download and Install QGIS for Advanced Users
+## Download and Install QGIS for Advanced Users ##
 
 **These instructions were prepared for a Windows 10 64-bit computer.**
 
@@ -51,7 +51,7 @@ The following images illustrate the install process on a Windows 10 computer.  A
 
 ![QGIS install 9](install-qgis-images/qgis-install-9.png)
 
-## Run QGIS
+## Run QGIS ##
 
 To run QGIS use the ***OSGeo4W*** start menu shown below:
 
@@ -65,6 +65,6 @@ The ***Help / About*** menu displays the software version information, which is 
 
 ![QGIS install 11](install-qgis-images/qgis-install-12.png)
 
-## Next Steps
+## Next Steps ##
 
 After installing QGIS it is possible to create a map and add layers to the map.

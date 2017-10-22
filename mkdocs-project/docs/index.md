@@ -1,4 +1,4 @@
-# Open Water Foundation / Learn QGIS
+# Open Water Foundation / Learn QGIS #
 
 This documentation provides resources to learn how to to use the [Quantum GIS (QGIS)](http://www.qgis.org) software.
 QGIS is free and open source [Geographic Information System (GIS)](https://en.wikipedia.org/wiki/Geographic_information_system) software.
@@ -12,7 +12,7 @@ with focus on tasks that are useful in water resources and solutions.
 This documentation focuses on the QGIS desktop software,
 although web technologies and data standards may be used to consume and publish data.
 
-## About the Open Water Foundation
+## About the Open Water Foundation ##
 
 The [Open Water Foundation](http://openwaterfoundation.org) is a 501(c)3 nonprofit social enterprise that focuses
 on developing and supporting open source software for water resources, so that organizations can make better decisions about water.
@@ -20,7 +20,7 @@ OWF has created this documentation to educate its staff, other developers, and c
 
 See also other [OWF learning resources](http://learn.openwaterfoundation.org).
 
-## How to Use this Documentation
+## How to Use this Documentation ##
 
 The documentation is organized in order of information and tasks necessary to setup a QGIS environment and
 use QGIS software for common tasks.
@@ -28,15 +28,16 @@ use QGIS software for common tasks.
 This documentation is not intended to be a full reference for QGIS but focuses on important topics that
 will help understand important technical concepts and be successful with QGIS.
 
-## License
+## License ##
 
-The OWF Learn MkDocs website content and examples are licenses under the
+The OWF Learn QGIS website content and examples are licenses under the
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0).
 
 ## Source Repository on GitHub
 
 The source files for this documentation are maintained in a GitHub repository:  [owf-learn-qgis](https://github.com/OpenWaterFoundation/owf-learn-qgis).
 
-## MkDocs
+## Release Notes ##
 
-This documentation is prepared using MkDocs.  For full MkDocs documentation visit [mkdocs.org](http://mkdocs.org/).
+This documentation was last updated 2017-10-21.
+See the [Release Notes in the GitHub Project](https://github.com/OpenWaterFoundation/owf-learn-qgis#release-notes).

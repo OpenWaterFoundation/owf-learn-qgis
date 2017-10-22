@@ -1,4 +1,4 @@
-# Learn QGIS / Overview
+# Learn QGIS / Overview #
 
 Geographic Information Systems (GIS) are used to manage, manipulate, display, and publish spatial data.
 GIS software can be complex due to the need to handle multiple data formats for spatial data,
@@ -20,13 +20,13 @@ in increasing order of complexity:
 * Automate spatial data analysis and data format conversion, using GDAL, OGR, and Python tools.
 * Create integrated spatial data analysis and visualization tools.
 
-## Alternatives to QGIS
+## Alternatives to QGIS ##
 
 Alternatives to QGIS include:
 
 * [Esri ArcGIS](https://www.arcgis.com)
 
-## Next Steps
+## Next Steps ##
 
 The remainder of this documentation describes how to install QGIS software, configure a map to view spatial data layers,
 and process spatial data.

@@ -1,4 +1,4 @@
-# Map Layers / Overview
+# Map Layers / Overview #
 
 Map layers, also called spatial data layers, are spatial datasets that form the basis of GIS visualization and analysis.
 
@@ -33,7 +33,7 @@ An example attribute table is shown in the following figure.
 
 ![Attribute table](overview-images/attribute-table.png)
 
-## Adding Layers to Map Project
+## Adding Layers to Map Project ##
 
 Unfortunately, although concepts related to spatial data layers should transfer between different data formats,
 the design of data layers files and databases introduces differences that must be handled in software.
