@@ -1,10 +1,10 @@
 # owf-learn-qgis #
 
 This repository contains the [Open Water Foundation (OWF)](http://openwaterfoundation.org/) QGIS training materials,
-which provides guidance for using the QGIS open source Geographic Information System (GIS) software.
+which provides guidance for using the [Quantum GIS (QGIS)](http://www.qgis.org/en/site/) open source Geographic Information System (GIS) software.
 The documentation is written for the layperson in order to encourage use of QGIS.
 
-See the deployed [OWF / Learn GeoJSON](http://learn.openwaterfoundation.org/owf-learn-qgis/) documentation.
+See the deployed [OWF / Learn QGIS](http://learn.openwaterfoundation.org/owf-learn-qgis/) documentation.
 
 ## Repository Contents ##
 
