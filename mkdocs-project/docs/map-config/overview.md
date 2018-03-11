@@ -8,6 +8,8 @@ This documentation describes basic map configuration.  The following sections ar
 * [Project Properties](#project-properties)
 * [Add Spatial Data Layers](#add-spatial-data-layers)
 
+------------------
+
 ## Blank Map ##
 
 The ***QGIS Desktop*** software when opened displays a somewhat complicated interface with many tools at top and on the left,
@@ -34,7 +36,7 @@ Use normal file version naming protocols to ensure that work is not lost.
 The map project has properties that control the coordinate reference system (CRS) and other information.
 Use the ***Project / Project Properties...*** menu to view and edit project properties.
 
-**TODO smalers 2016-12-28 need to describe important properties such as the CRS.**
+**Need to describe important properties such as the CRS.**
 
 ## Add Spatial Data Layers ##
 

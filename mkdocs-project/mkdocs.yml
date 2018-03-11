@@ -5,17 +5,16 @@
 site_name: 'OWF Learn / QGIS'
 pages:
 - Home: index.md
-- Overview: overview.md
+- Introduction: introduction.md
 - Install QGIS: install-qgis.md
 - 'Map Configuration':
   - Overview: 'map-config/overview.md'
 - 'Map Layers':
   - Overview: 'map-layers/overview.md'
   - 'GeoJSON (vector)': 'map-layers/vector-geojson.md'
-- 'Raster automation using GDAL Tools':
-  - Overview: 'gdal/overview.md'
-- 'Vector automation using OGR Tools':
-  - Overview: 'ogr/overview.md'
+- 'Automating Processing':
+  - Overview: 'automation/overview.md'
+- 'Resources': resources.md
 # ------- configuration properties ---------------
 # Use Material theme
 # - installation notes:  https://github.com/squidfunk/mkdocs-material
@@ -28,7 +27,6 @@ site_description:  'Open Water Foundation Learn QGIS'
 site_author:  'Open Water Foundation'
 site_favicon:  'images/OWF-Logo-Favicon-32x32.png'
 copyright:  'Copyright Open Water Foundation'
-# Extra options
-extra:
-  # Use extra CSS to customize styles, based o
-  extra_css: 'css/extra-material-theme.css'
+# Use extra CSS to customize styles, based o
+extra_css:
+  - 'css/extra-material-theme.css'
