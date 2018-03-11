@@ -1,6 +1,6 @@
 # Open Water Foundation / Learn QGIS #
 
-This documentation provides resources to learn how to to use the [Quantum GIS (QGIS)](http://www.qgis.org) software.
+This documentation provides resources to learn how to use the [Quantum GIS (QGIS)](http://www.qgis.org) software.
 QGIS is free and open source [Geographic Information System (GIS)](https://en.wikipedia.org/wiki/Geographic_information_system) software.
 QGIS is an alternative to the commercial [Esri ArcGIS software](https://www.arcgis.com),
 in particular for individuals and organizations that cannot afford the cost of ArcGIS software
@@ -39,5 +39,4 @@ The source files for this documentation are maintained in a GitHub repository:  
 
 ## Release Notes ##
 
-This documentation was last updated 2017-10-21.
 See the [Release Notes in the GitHub Project](https://github.com/OpenWaterFoundation/owf-learn-qgis#release-notes).
