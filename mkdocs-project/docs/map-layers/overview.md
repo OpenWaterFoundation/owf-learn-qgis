@@ -7,6 +7,8 @@ The following sections are available in this documentation:
 * [Spatial Data Layer Concepts](#spatial-data-layer-concepts)
 * [Adding Layers to Map Project](#adding-layers-to-map-project)
 
+-----------------
+
 ## Spatial Data Layer Concepts
 
 A spatial data layer at a fundamental level can be either a [raster](https://en.wikipedia.org/wiki/Raster_graphics) or vector layer.

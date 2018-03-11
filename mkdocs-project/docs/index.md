@@ -30,7 +30,7 @@ will help understand important technical concepts and be successful with QGIS.
 
 ## License ##
 
-The OWF Learn QGIS website content and examples are licenses under the
+The OWF Learn QGIS website content and examples are licensed under the
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0).
 
 ## Source Repository on GitHub
