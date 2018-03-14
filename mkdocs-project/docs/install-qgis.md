@@ -115,16 +115,16 @@ To run QGIS use the ***OSGeo4W*** start menu shown below (example is for Windows
 Note that QGIS 3.0.0 is also available, and as updates are installed will become more and more stable
 and ready for production use.
 
-![QGIS install 10](install-qgis-images/qgis-run-1.png)
+![QGIS run 1](install-qgis-images/qgis-run-1.png)
 
 Running ***QGIS Desktop 2.18.17*** displays the user interface similar to below.
 
-![QGIS install 11](install-qgis-images/qgis-run-2.png)
+![QGIS run 2](install-qgis-images/qgis-run-2.png)
 
 The ***Help / About*** menu displays the software version information (see below),
 which is useful when troubleshooting.
 
-![QGIS install 11](install-qgis-images/qgis-run-2.png)
+![QGIS run 3](install-qgis-images/qgis-run-3.png)
 
 ## Uninstall QGIS ##
 
