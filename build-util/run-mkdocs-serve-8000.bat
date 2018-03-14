@@ -19,14 +19,14 @@ rem Change to the MkDocs project folder so MkDocs will find the files
 cd ..\mkdocs-project
 
 echo ================================================================
-echo Python found in PATH is used is shown below.
+echo Python found in PATH is shown below.
 where python
 echo Mkdocs found in PATH is shown below.
 where mkdocs
 echo ================================================================
 
 echo View the website using http://localhost:8000
-echo Use CTRL-C to stop the server.
+echo Use CTRL-c to stop the server.
 echo ================================================================
 rem mkdocs serve -a 0.0.0.0:8000
 mkdocs serve
