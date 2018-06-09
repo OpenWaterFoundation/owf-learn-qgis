@@ -6,7 +6,7 @@ site_name: 'OWF Learn / QGIS'
 pages:
 - Home: index.md
 - Introduction: introduction.md
-- Install QGIS: install-qgis.md
+- Install QGIS: install-qgis/install-qgis.md
 - 'Map Configuration':
   - Overview: 'map-config/overview.md'
 - 'Map Layers':

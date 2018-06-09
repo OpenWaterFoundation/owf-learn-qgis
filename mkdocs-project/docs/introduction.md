@@ -33,11 +33,14 @@ The most popular ways to pronounce QGIS seem to be Q-G-I-S (spell it out) or Q-j
 
 Alternatives to QGIS include:
 
-* [Esri ArcGIS](https://www.arcgis.com) - commercial desktop and web GIS tools
+* [Esri ArcGIS Desktop](http://desktop.arcgis.com/en/) - commercial desktop GIS tools
+* [Esri ArcGIS Pro](https://pro.arcgis.com/en/pro-app/) - commercial desktop GIS tools, latest generation
 
-OWF is also developing GeoProcessor software that leverages QGIS to automate goespatial processing.
-QGIS ([see documentation](http://learn.openwaterfoundation.org/owf-app-geoprocessor-python-doc-user/))
-and ArcGIS (documentation is pending) versions of the software are available.
+OWF is also developing GeoProcessor software that leverages QGIS and ArcGIS Pro to automate goespatial processing,
+with the goal being to provide the same user interface and command syntax for both GIS platforms:
+
+* [GeoProcessor for QGIS](http://learn.openwaterfoundation.org/owf-app-geoprocessor-python-doc-user/)
+* GeoProcessor for ArcGIS - documentation is pending
 
 ## Next Steps ##
 

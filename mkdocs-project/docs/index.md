@@ -12,6 +12,10 @@ with focus on tasks that are useful in water resources and solutions.
 This documentation focuses on the QGIS desktop software,
 although web technologies and data standards may be used to consume and publish data.
 
+See also:
+
+* [Open Water Foundation GeoProcessor](http://learn.openwaterfoundation.org/owf-app-geoprocessor-python-doc-user/) - software that automates geospatial processing
+
 ## About the Open Water Foundation ##
 
 The [Open Water Foundation](http://openwaterfoundation.org) is a 501(c)3 nonprofit social enterprise that focuses
@@ -24,9 +28,12 @@ See also other [OWF learning resources](http://learn.openwaterfoundation.org).
 
 The documentation is organized in order of information and tasks necessary to setup a QGIS environment and
 use QGIS software for common tasks.
-
 This documentation is not intended to be a full reference for QGIS but focuses on important topics that
 will help understand important technical concepts and be successful with QGIS.
+
+Use the navigation menus on the left to navigate the full documentation.
+Use the navigation menus on the right to navigate sections within the current page.
+Menus may be compressed if the page size is narrow.
 
 ## License ##
 
