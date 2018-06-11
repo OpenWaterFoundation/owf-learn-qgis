@@ -11,7 +11,7 @@ Use the following link to install QGIS:
 
 The detailed installation below focuses on the ***Express Install***, which is sufficient for most users.
 The ***Advanced Install*** section is also discussed because the Open Water Foundation
-used the long-term release available in the advanced install during development of earl
+used the long-term release available in the advanced install during development of early
 versions of the OWF GeoProcessor.
 
 The following sections are included in this documentation:
@@ -20,7 +20,7 @@ The following sections are included in this documentation:
 	+ [Express Desktop Install](#express-desktop-install)
 	+ [Advanced Install](#advanced-install)
 * [Run QGIS on Windows](#run-qgis-on-windows)
-	+ [QGIS 3](qgis-3)
+	+ [QGIS 3](#qgis-3)
 	+ [QGIS 2](#qgis-2)
 * [Uninstall QGIS](#uninstall-qgis)
 * [Next Steps](#next-steps)
@@ -48,16 +48,37 @@ If not saved, the installer can be downloaded again later.
 Run the installer with administrator privileges.
 The following dialog will be displayed asking how to install QGIS.
 
-**Need an image here showing initial install dialog.**
+![QGIS install 0b](images/qgis-install-0b.png)
 
 ### Express Desktop Install ###
 
 The ***Express Desktop Install*** is the simplest install and will install only the current QGIS 3+ version.
 Selecting the ***Express Web-GIS Install*** will default installation choices for components
 such as the Open MapServer, which is not needed for desktop GIS tasks.
-The installer can be run later to install web components if necessary.
+The installer can be run later to install web components if necessary. 
+The following images illustrate the install process on a Windows 10 computer. 
+The defaults were accepted unless otherwise noted.
 
-**Need to document the Express Desktop Install steps - maybe can reuse some of the other images (make a copy).**
+Select ***Express Desktop Install*** on the inital setup window.
+
+![QGIS express install 0](images/qgis-install-0b.png)
+
+The following step selects the packages to download. 
+[GDAL](http://www.gdal.org/) and [GRASS GIS](https://grass.osgeo.org/) software programs are commonly packaged libraries used within the QGIS software. 
+It is highly recommended to use the default settings. 
+
+![QGIS express install 1](images/qgis-express-install-1.png)
+
+Agree to the terms of use. 
+
+![QGIS express install 2](images/qgis-express-install-2.png)
+
+The install will begin.
+
+![QGIS express install 3](images/qgis-express-install-3.png)
+
+A message window appears once the installation is complete. 
+![QGIS express install 4](images/qgis-express-install-4.png)
 
 ### Advanced Install ###
 
@@ -66,6 +87,8 @@ This following instructions are retained in this documentation for reference.
 However, it is recommended to use the latest QGIS 3 installer described in the previous section if possible.
 The following images illustrate the install process on a Windows 10 computer.
 The defaults were accepted unless otherwise noted.
+
+Select ***Advanced Install*** on the inital setup window.
 
 ![QGIS advanced install 1](images/qgis-advanced-install-1.png)
 
@@ -118,7 +141,31 @@ The person installing the software just needs to acknowledge that the license no
 
 ### QGIS 3 ###
 
-**Need menu screen shot for Express Install and focus on running QGIS 3 here.**
+QGIS 3.x is bundled with both Python 2.7+ and Python 3.6+ but uses Python 3.6+ for start-up and processing. 
+QGIS can be started with the Windows ***Start*** menu or with the installed batch files. 
+
+- To run QGIS with the Windows ***Start*** menu, use the ***OSGeo4W*** start menu shown below (example is for Windows 10 Pro). 
+Click the `QGIS Desktop 3.X.X` option. 
+Note that if the long-term release QGIS version was installed with the [Advanced Install](#advanced-install) 
+then `QGIS Desktop 2.X.X` will also be available in the ***OSGeo4W*** dropdown menu. 
+See the [QGIS 2](#qgis-2) section for more details. 
+
+	![QGIS 3 run 1](images/qgis3-run-1.png)
+
+- To  run QGIS with the batch file, double-click the `qgis.bat` file at `C:\OSGeo4W64\bin\qgis.bat`.
+Note that if the long-term release QGIS version was installed with the [Advanced Install](#advanced-install)
+then start QGIS 2 with the `qgis-ltr.bat` file at `C:\OSGeo4W64\bin\qgis-ltr.bat`. 
+See the [QGIS 2](#qgis-2) section for more details. 
+
+Running ***QGIS Desktop 3.0.3*** displays the user interface similar to below. 
+
+![QGIS 3 run 2](images/qgis3-run-2.png)
+
+The ***Help / About*** menu displays the software version information (see below),
+which is useful when troubleshooting.
+
+![QGIS 3 run 3](images/qgis3-run-3.png)
+
 
 ### QGIS 2 ###
 
@@ -151,7 +198,34 @@ which is useful when troubleshooting.
 
 It may be necessary to uninstall QGIS and then reinstall.
 
-**Need to insert information.**
+According to the [OSGeo4W FAQ site](https://trac.osgeo.org/osgeo4w/wiki/FAQ#IsthereawayofuninstallingpackagesorallofOSGeo4W), 
+
+```"Currently there is no installer option to uninstall OSGeo4W completely. However, when all OSGeo4W applications, shells and services (like apache) are shutdown it is possible to just delete the whole OSGeo4W file tree (usually C:\OSGeo4W)."```
+
+It is possible, however, to unistall individual packages. 
+
+[Download and save the QGIS installer](http://www.qgis.org/en/site/forusers/download.html) for Windows,
+selecting ***OsGeo4W Network Installer (64 bit)***, as shown below.
+
+![QGIS uninstall 0](images/qgis-install-0.png)
+
+Select ***Advanced Install*** on the inital setup window.
+
+![QGIS uninstall 0b](images/qgis-advanced-install-1.png)
+
+Click through all of the windows accepting the *defaults* until the ***Select Packages*** window is displayed.
+
+Expand each ***Category*** by clicking the plus sign (`+`) next to each option. 
+
+![QGIS uninstall 1](images/qgis-uninstall-1.png)
+
+Find a package to uninstall. Under the ***New*** column, click on the version number to change it to ***Uninstall***. 
+Repeat for all desired packages. 
+
+![QGIS uninstall 2](images/qgis-uninstall-2.png)
+
+To delete QGIS Desktop, expand the ***Desktop*** category and enable the ***Uninstall*** option next to the `qgis: QGIS Desktop` package.
+
 
 ## Next Steps ##
 
