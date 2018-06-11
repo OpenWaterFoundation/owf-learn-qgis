@@ -4,7 +4,7 @@ The following resources are useful, organized alphabetically.
 
 * [Geographic Information Systems Background](#geographic-information-systems-background)
 * [GIS Tools](#gis-tools)
-* [GGIS](#qgis)
+* [QGIS](#qgis)
 
 -------------
 
@@ -20,6 +20,6 @@ The following resources are useful, organized alphabetically.
 * OGR (Geospatial Data Abstraction Library) - open source raster tools
 	+ [OGR utilities](http://www.gdal.org/ogr_utilities.html)
 
-## GGIS ##
+## QGIS ##
 
-* [GGIS - qgis.org](https://qgis.org/en/site/index.html)
+* [QGIS - qgis.org](https://qgis.org/en/site/index.html)

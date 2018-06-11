@@ -29,7 +29,14 @@ See also other [OWF learning resources](http://learn.openwaterfoundation.org).
 The documentation is organized in order of information and tasks necessary to setup a QGIS environment and
 use QGIS software for common tasks.
 This documentation is not intended to be a full reference for QGIS but focuses on important topics that
-will help understand important technical concepts and be successful with QGIS.
+will help understand important technical concepts and be successful with QGIS. 
+The following main sections are inlcuded in this documentation: 
+
+- [Introduction](introduction.md) - an overview of QGIS software
+- [Install QGIS](install-qgis/install-qgis.md) - explanation of how to install QGIS
+- [Map Configuration](map-config/overview.md) - information about creating maps
+- [Map Layers](map-layers/overview.md) - information about map layers 
+- [Automating Processing](automation/overview.md) - information about how to automate GIS processes
 
 Use the navigation menus on the left to navigate the full documentation.
 Use the navigation menus on the right to navigate sections within the current page.

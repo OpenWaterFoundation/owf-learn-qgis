@@ -1,6 +1,6 @@
 # Learn QGIS / Introduction #
 
-Geographic Information Systems (GIS) are used to manage, manipulate, display, and publish spatial data.
+[Geographic Information Systems (GIS)](https://en.wikipedia.org/wiki/Geographic_information_system) are used to manage, manipulate, display, and publish spatial data.
 GIS software can be complex due to the need to handle multiple data formats for spatial data,
 project two and three-dimensional coordinates into a flat space for visualization,
 handle vector (geometries described by discrete points) and raster (gridded) data, and other complexities.
@@ -44,5 +44,6 @@ with the goal being to provide the same user interface and command syntax for bo
 
 ## Next Steps ##
 
-The remainder of this documentation describes how to install QGIS software, configure a map to view spatial data layers,
-and process spatial data.
+The remainder of this documentation describes how to [install QGIS software](install-qgis/install-qgis.md),
+[configure a map](map-config/overview.md) to view [spatial data layers](map-layers/overview.md),
+and [process spatial data](automation/overview.md).
