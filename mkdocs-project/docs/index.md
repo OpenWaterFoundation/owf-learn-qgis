@@ -30,7 +30,7 @@ The documentation is organized in order of information and tasks necessary to se
 use QGIS software for common tasks.
 This documentation is not intended to be a full reference for QGIS but focuses on important topics that
 will help understand important technical concepts and be successful with QGIS. 
-The following main sections are inlcuded in this documentation: 
+The following main sections are included in this documentation: 
 
 - [Introduction](introduction.md) - an overview of QGIS software
 - [Install QGIS](install-qgis/install-qgis.md) - explanation of how to install QGIS
@@ -45,7 +45,7 @@ Menus may be compressed if the page size is narrow.
 ## License ##
 
 The OWF Learn QGIS website content and examples are licensed under the
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0).
+[Creative Commons Attribution 4.0 International (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/).
 
 ## Source Repository on GitHub
 
@@ -53,4 +53,5 @@ The source files for this documentation are maintained in a GitHub repository:  
 
 ## Release Notes ##
 
-See the [Release Notes in the GitHub Project](https://github.com/OpenWaterFoundation/owf-learn-qgis#release-notes).
+See the [Release Notes in the GitHub Project](https://github.com/OpenWaterFoundation/owf-learn-qgis#release-notes),
+although the GitHub issues tracker is most often used to track progress.

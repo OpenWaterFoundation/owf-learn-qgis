@@ -4,7 +4,11 @@ Several versions of QGIS software are available for installation, depending on o
 historical versions.  It is recommended that for general use the normal OSGeo4 "suite"
 is installed, which installs the current QGIS version and optionally allows the stable long-term release to be installed.
 QGIS 3.x was released February 23, 2018.
+
 The stable long-term release (version 2.18.17 or later) can be installed with QGIS 3 if older QGIS 2 software is needed.
+However, now that QGIS 3 has had time to be used and updated, QGIS 2 is less likely to be needed unless another
+application depends on it.  This documentation focuses on the latest QGIS 3 version.
+
 Use the following link to install QGIS:
 
 * [Download QGIS for your platform](http://www.qgis.org/en/site/forusers/download.html)
@@ -16,43 +20,78 @@ versions of the OWF GeoProcessor.
 
 The following sections are included in this documentation:
 
+* [Download and Install QGIS for Cygwin](#download-and-install-qgis-for-cygwin)
+* [Download and Install QGIS for Linux](#download-and-install-qgis-for-linux)
 * [Download and Install QGIS for Windows](#download-and-install-qgis-for-windows)
-	+ [Express Desktop Install](#express-desktop-install)
-	+ [Advanced Install](#advanced-install)
+	+ [Windows Express Desktop Install](#windows-express-desktop-install)
+	+ [Windows Advanced Install](#windows-advanced-install)
+	+ [Windows Troubleshooting Install](#windows-troubleshooting-install)
 * [Run QGIS on Windows](#run-qgis-on-windows)
 	+ [QGIS 3](#qgis-3)
 	+ [QGIS 2](#qgis-2)
 * [Uninstall QGIS](#uninstall-qgis)
+	+ [Backup Previous Install](#backup-previous-install)
+	+ [Uninstall Manually](#uninstall-manually)
+	+ [Uninstall Individual Packages](#uninstall-individual-packages)
 * [Next Steps](#next-steps)
 
 --------------------
 
+## ![cygwin-32](../images/cygwin-32.png) Download and Install QGIS for Cygwin ##
+
+These instructions currently do not cover installing QGIS for Cygwin.
+The best approach may be to install QGIS on Windows and then create shell scripts in Cygwin
+to run the Windows version.
+
+## ![linux-32](../images/linux-32.png) Download and Install QGIS for Linux ##
+
+This section needs to be completed.
+
 ## ![windows-32](../images/windows-32.png) Download and Install QGIS for Windows ##
 
-**These instructions were prepared for a Windows 10 64-bit computer, using the QGIS 3.0.0 version.**
+**These instructions were prepared for a Windows 10 64-bit computer, using the QGIS 3.4.3 Madeira version.**
+
+Before installing/updating QGIS:
+
+* **If there are issues installing the software, try uninsalling the software and then installing again.**
+* If updating QGIS, it is recommended to uninstall the previous version and unfortunately this may involve some manual steps.
+See the [Uninstall QGIS](#uninstall-qgis) section.
+* See the [Windows Troubleshooting Install](#windows-troubleshooting-install) section for more information about troubleshooting software once installed.
 
 It is recommended to install the default "OSGeo4W" suite.
-The "standalone" installation approach can be used to install older versions of the software;
+The ***OSGeo4W Network Installer*** provides defaults and the flexibility to install additional software components,
+which may be needed, such as when working with map servers.
+In this version, QGIS has been bundled into the OSGeo4W suite.
+The ***QGIS Standalone Installer Version*** can also be installed for normal desktop GIS and provides QGIS and GRASS (raster processing) software.
+The first of these options will result in files being installed in `C:\OSGeo4W64`,
+whereas the second option will install into `C:\Program Files\...`.
+Note that the [Open Water Foundation GeoProcessor software](http://learn.openwaterfoundation.org/owf-app-geoprocessor-python-doc-user/)
+installation currently assumes the `C:\OSGeo4W64` installation.
+
+The ***Express Install*** approach is recommended to install the latest software.
+The ***Advanced Install*** approach can be used to install older versions of the software including QGIS 2.x long term release (old LTR);
 however, this is typically only needed in specific cases and should be avoided if possible.
+Downloading and installing QGIS will overwrite the previous version that is installed.
+Installing multiple versions of QGIS is not described in this documentation but maybe be added in the future.
 
 [Download and save the QGIS installer](http://www.qgis.org/en/site/forusers/download.html) for Windows,
 selecting ***OsGeo4W Network Installer (64 bit)***, as shown below.
 
 ![QGIS install 0](images/qgis-install-0.png)
 
-The installer file will have a name similar to `osgeo4w-setup-x86_64.exe`.
+The installer file will have a name similar to `osgeo4w-setup-x86_64.exe` and is not specific to the QGIS version number.
 The installer program can be run again later to update the software.
 Therefore save in a location such as `C:\Users\user\Downloads\QGIS`.
 If not saved, the installer can be downloaded again later.
 
-Run the installer with administrator privileges.
+**Run the installer with administrator privileges**.
 The following dialog will be displayed asking how to install QGIS.
 
 ![QGIS install 0b](images/qgis-install-0b.png)
 
-### Express Desktop Install ###
+### Windows Express Desktop Install ###
 
-The ***Express Desktop Install*** is the simplest install and will install only the current QGIS 3+ version.
+The ***Express Desktop Install*** is the simplest install and will install only the current QGIS 3+ version (no 2.x long term release).
 Selecting the ***Express Web-GIS Install*** will default installation choices for components
 such as the Open MapServer, which is not needed for desktop GIS tasks.
 The installer can be run later to install web components if necessary. 
@@ -66,21 +105,24 @@ Select ***Express Desktop Install*** on the inital setup window.
 The following step selects the packages to download. 
 [GDAL](http://www.gdal.org/) and [GRASS GIS](https://grass.osgeo.org/) software programs are commonly packaged libraries used within the QGIS software. 
 It is highly recommended to use the default settings. 
+If running the first time, you may be prompted to select a download server.
 
 ![QGIS express install 1](images/qgis-express-install-1.png)
 
-Agree to the terms of use. 
+Agree to the terms of use for all components, similar to the following.
 
 ![QGIS express install 2](images/qgis-express-install-2.png)
 
-The install will begin.
+The install will begin.  It may take some time for the installation to complete given that a large number of packages are installed.
 
 ![QGIS express install 3](images/qgis-express-install-3.png)
 
 A message window appears once the installation is complete. 
 ![QGIS express install 4](images/qgis-express-install-4.png)
 
-### Advanced Install ###
+After installation, the software is listed in the ***Start / OSGeo4W*** menu and software is installed in the `C:\OSGeo4W64` folder.
+
+### Windows Advanced Install ###
 
 The ***Advanced Install*** will install QGIS 3 and is required if it is necessary to run the older QGIS 2.x software, which used Python 2.
 This following instructions are retained in this documentation for reference.
@@ -137,6 +179,20 @@ One or more license acknowledgement requests may be displayed to
 fulfill licensing requirements of component software.
 The person installing the software just needs to acknowledge that the license notice was read.
 
+### Windows Troubleshooting Install ###
+
+The following information may be helpful when troublehshooting a QGIS installation or update:
+
+* **After update, scripts that run QGIS still find the old software**.  
+If an update has occurred, the previous version may have been copied to a new folder.
+For example `C:\OSGeo4W64` may have been copied to `C:\OSGeo4W64-old`.
+The underlying scripts that run QGIS use old-style 8.3 filenames,
+which results in using a folder name `C:\OSGEO4~1`.
+Renaming the folder as shown above still matches the old convention.
+Therefore, the old folder is found and is run.
+To fix, rename the old installation to `C:\x-OSGeo4W64` or similar so that the filename is
+different enough to change the old-style name.
+
 ## Run QGIS on Windows ##
 
 ### QGIS 3 ###
@@ -145,7 +201,7 @@ QGIS 3.x is bundled with both Python 2.7+ and Python 3.6+ but uses Python 3.6+ f
 QGIS can be started with the Windows ***Start*** menu or with the installed batch files. 
 
 - To run QGIS with the Windows ***Start*** menu, use the ***OSGeo4W*** start menu shown below (example is for Windows 10 Pro). 
-Click the `QGIS Desktop 3.X.X` option. 
+Click the `QGIS Desktop 3.X.X` option.  Newer versions of QGIS 3 may be available in the ***Start / QGIS3*** menu.
 Note that if the long-term release QGIS version was installed with the [Advanced Install](#advanced-install) 
 then `QGIS Desktop 2.X.X` will also be available in the ***OSGeo4W*** dropdown menu. 
 See the [QGIS 2](#qgis-2) section for more details. 
@@ -165,7 +221,6 @@ The ***Help / About*** menu displays the software version information (see below
 which is useful when troubleshooting.
 
 ![QGIS 3 run 3](images/qgis3-run-3.png)
-
 
 ### QGIS 2 ###
 
@@ -197,15 +252,73 @@ which is useful when troubleshooting.
 ## Uninstall QGIS ##
 
 It may be necessary to uninstall QGIS and then reinstall.
+In fact, it is recommended to uninstall QGIS before installing an update.
 
-According to the [OSGeo4W FAQ site](https://trac.osgeo.org/osgeo4w/wiki/FAQ#IsthereawayofuninstallingpackagesorallofOSGeo4W), 
+According to the [OSGeo4W FAQ site](https://trac.osgeo.org/osgeo4w/wiki/FAQ#IsthereawayofuninstallingpackagesorallofOSGeo4W),
+there is no way to cleanly install the OSGeo4W suite:
 
-```"Currently there is no installer option to uninstall OSGeo4W completely. However, when all OSGeo4W applications, shells and services (like apache) are shutdown it is possible to just delete the whole OSGeo4W file tree (usually C:\OSGeo4W)."```
+	Currently there is no installer option to uninstall OSGeo4W completely.
+	However, when all OSGeo4W applications, shells and services (like apache) are shutdown
+	it is possible to just delete the whole OSGeo4W file tree (usually C:\OSGeo4W).
 
-It is possible, however, to unistall individual packages. 
+See the [Stack Overflow article about uninstalling `OSGeo4W Network` version](https://gis.stackexchange.com/questions/189067/how-to-cleanly-upgrade-qgis-on-windows/253591).
+Because the OSGeo4W suite installs multiple programs, using the Windows Uninstall feature does not work well.
+
+### Backup Previous Install ###
+
+The OSGeo4W install is complex and by default will overwrite the previous installation in the `C:\OSGeo4W64` folder.
+If there is a need to save the old version before doing an uninstall, do the following,
+or, alternatively, save to backup medium and then uninstall, as described in the following sections:
+
+#### OSGeo4W version ####
+
+* **Move the `C:\OSGeo4W64` folder to a new name.**
+To avoid confusion with scripts that use 8.3 filenames, add something to the front of the folder name.
+* **Copy the ***Start*** menu shortcuts.**
+To remove menus, go to the ***Start / OSGeo4W64*** menu.  On any software menu, right-click and select ***More / Open File Location***.
+This will open a ***File Explorer***  in a folder similar to `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\OSGeo4W`.
+Rename the folder to another name anywhere on the computer.
+This will retain shortcuts found in the folder.
+
+#### Standalone QGIS version ####
+
+Need to add this section.
+
+### Uninstall Manually ###
+
+#### OSGeo4W version ####
+
+If the previous version is not uninstalled and then a new version is installed, the result may have the following traits:
+
+* ***Start / OSGeo4W*** menu shows previous version and possibly menus ending with `(1)` or other number,
+indicating a second copy of menu configuration files.
+This is caused by the installer creating duplicate files in the ***Start*** menu shortcuts.
+* Software files will include multiple versions.  For example, `Python36` and `Python37` (or other) versions of of
+Python will be installed when only one version should be installed.
+
+To manually remove the software, do the following:
+
+* **Delete the `C:\OSGeo4W64` folder (or move to a new name).**
+* **Remove the ***Start*** menu shortcuts.**
+To remove menus, go to the ***Start / OSGeo4W64*** menu.  On any software menu, right-click and select ***More / Open File Location***.
+This will open a ***File Explorer***  in a filder similar to `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\OSGeo4W`.
+If multiple versions of the OSGeo4W suite have been installed, the menu shortcut files may be duplicated.
+Delete the shortcut files and then (re)install the OSGeo4W software suite.
+
+#### Standalone version ####
+
+Need to evaluate whether there are similar issues to the OSGeo4W update or perhaps the QGIS stand-alone installer
+does a better job removing old versions of the software.
+
+### Uninstall Individual Packages ###
+
+It is possible to unistall individual packages using the software installer tool.
+This involves deselecting packages in the `OSGeo4W` installer.
+**However, doing so may require that the packages need to be reselected for istall in a future installation - need to confirm how "sticky" the selections are.**
+It may make more sense to uninstall manually as described in the previous section.
 
 [Download and save the QGIS installer](http://www.qgis.org/en/site/forusers/download.html) for Windows,
-selecting ***OsGeo4W Network Installer (64 bit)***, as shown below.
+selecting ***OSGeo4W Network Installer (64 bit)***, as shown below.
 
 ![QGIS uninstall 0](images/qgis-install-0.png)
 
@@ -225,7 +338,6 @@ Repeat for all desired packages.
 ![QGIS uninstall 2](images/qgis-uninstall-2.png)
 
 To delete QGIS Desktop, expand the ***Desktop*** category and enable the ***Uninstall*** option next to the `qgis: QGIS Desktop` package.
-
 
 ## Next Steps ##
 
