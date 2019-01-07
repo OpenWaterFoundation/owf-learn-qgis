@@ -14,7 +14,8 @@ although web technologies and data standards may be used to consume and publish 
 
 See also:
 
-* [Open Water Foundation GeoProcessor](http://learn.openwaterfoundation.org/owf-app-geoprocessor-python-doc-user/) - software that automates geospatial processing
+* [QGIS Website](https://qgis.org/en/site/)
+* [Open Water Foundation GeoProcessor](http://learn.openwaterfoundation.org/owf-app-geoprocessor-python-doc-user/) - software that automates geospatial processing, based on QGIS
 
 ## About the Open Water Foundation ##
 
