@@ -1,14 +1,16 @@
-# Learn QGIS / Introduction #
+# QGIS / Introduction #
 
-[Geographic Information Systems (GIS)](https://en.wikipedia.org/wiki/Geographic_information_system) are used to manage, manipulate, display, and publish spatial data.
+A [Geographic Information System (GIS)](https://en.wikipedia.org/wiki/Geographic_information_system)
+is used to manage, manipulate, display, and publish spatial data.
 GIS software can be complex due to the need to handle multiple data formats for spatial data,
 project two and three-dimensional coordinates into a flat space for visualization,
 handle vector (geometries described by discrete points) and raster (gridded) data, and other complexities.
 
 Despite the complexities of GIS, spatial data provides many benefits,
-in its simplest form as maps that provide spatial context for real-world features such as rivers,
-data collection points, and calculated data.
-Consequently, there is a need to utilize GIS software tools as efficiently as possible for simple tasks,
+in its simplest form as maps that provide spatial context for real-world natural features such as
+river basins, human-constructed environments such as cities, and data-collection networks.
+Consequently, there is a need to utilize GIS software tools as efficiently as possible for
+spatial data processing and viewing,
 and [Quantum GIS (QGIS)](https://qgis.org/en/site/index.html) can meet this need.
 
 QGIS is free open source desktop GIS software, with integration to other components to provide

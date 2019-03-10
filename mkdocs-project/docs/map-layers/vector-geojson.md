@@ -1,4 +1,4 @@
-# Map Layers / GeoJSON (vector) #
+# QGIS / Map Layers / GeoJSON (vector) #
 
 GeoJSON is an open specification for text representation of vector spatial data layer.
 GeoJSON is a format that is generally easy to generate and read.
@@ -12,21 +12,25 @@ The following sections are included in this documentation:
 * [GeoJSON Specification](#geojson-specification)
 * [GeoJSON Limitations](#geojson-limitations)
 * [Add GeoJson Layer to QGIS Map](#add-geojson-layer-to-qgis-map)
+	+ [Add Layer Available as a Local File](#add-layer-available-as-a-local-file)
+	+ [Add Layer Available on the Web](#add-layer-available-on-the-web)
 
 --------------
 
 ## GeoJSON Specification
 
-The GeoJSON specification is:
+The following resources provide information about the GeoJSON specification:
 
-* [geojson.org](http://geojson.org/)
-* [RFC 7946 for GeoJSON 2016](https://tools.ietf.org/html/rfc7946) - difficult to read
-* [GeoJson on Wikipedia](https://en.wikipedia.org/wiki/GeoJSON) - easy to read
-* [2008 GeoJSON specification](http://geojson.org/geojson-spec.html) - readable documentation for 2008 specification, generally still valid
+* New specification (RFC 7946):
+	+ [geojson.org](http://geojson.org/)
+	+ [RFC 7946 for GeoJSON 2016](https://tools.ietf.org/html/rfc7946) - difficult to read
+	+ [GeoJSON on Wikipedia](https://en.wikipedia.org/wiki/GeoJSON) - easy to read
+* Original specification:
+	+ [2008 GeoJSON specification](http://geojson.org/geojson-spec.html) - readable documentation for 2008 specification, generally still valid
 
 ## GeoJSON Limitations ##
 
-The following are limitations of GeoJSON (at least 2008 version):
+GeoJSON is simple by design and consequently it has limitations, including:
 
 * Comments are not allowed since the JSON format does not allow.  Properties can be used.
 * There does not appear to be a metadata standard for GeoJSON.
@@ -41,30 +45,31 @@ Symbolization information is not included (in contrast to KML or shapefile packa
 
 A GeoJSON file can be added as a vector layer in QGIS using one of the following approaches.
 
-### Add Layer Available on the Web ###
-
-Use the ***Add Vector Layer*** tool:
-
-1. Select the ***Source Type*** to be ***Protocol***.
-2. Select the ***Protocol*** to be ***GeoJSON***.
-3. Specify the URI to a GeoJSON file:
-	* web service URI
-	* static website URI (for example: `https://raw.githubusercontent.com/johan/world.geo.json/master/countries/USA/CO/Larimer.geo.json`)
-
-![Add GeoJSON](vector-geojson-images/add-geojson-uri.png)
-
-Pressing ***Open*** will display the layer on the map and in the ***Layers Panel*** at which time layer properties can be edited if desired.
-
 ### Add Layer Available as a Local File ###
 
-An easy way to add a GeoJSON file to a map is to use Windows Explorer to select and drag a GeoJSON file onto the map.
+An easy way to add a GeoJSON file to a map is to use Windows File Explorer
+to select and drag a GeoJSON file onto the map.
 The following method can also be used.
 
-Use the ***Add Vector Layer*** tool:
-
-1. Select the ***Source Type*** to be ***File***.
+1. Select the ***Layer / Add Layer / Add Vector Layer*** menu
+2. Select the ***Source Type*** to be ***File***.
 3. Use the ***Browse*** button to select the file.
 
 ![Add GeoJSON](vector-geojson-images/add-geojson-file.png)
 
-Pressing ***Open*** will display the layer on the map and in the ***Layers Panel*** at which time layer properties can be edited if desired.
+Pressing ***Add*** will display the layer on the map and in the ***Layers*** panel
+at which time layer properties can be edited if desired.
+
+### Add Layer Available on the Web ###
+
+1. Select the ***Layer / Add Layer / Add Vector Layer*** menu.
+1. Select the ***Source Type*** to be ***Protocol***.
+2. Select the ***Protocol*** to be ***GeoJSON***.
+3. Specify the URI to a GeoJSON file:
+	* web service URI that returns raw GeoJSON format
+	* static website URI (for example: `https://raw.githubusercontent.com/johan/world.geo.json/master/countries/USA/CO/Larimer.geo.json`)
+
+![Add GeoJSON](vector-geojson-images/add-geojson-uri.png)
+
+Pressing ***Add*** will display the layer on the map and in the ***Layers*** panel
+at which time layer properties can be edited if desired.

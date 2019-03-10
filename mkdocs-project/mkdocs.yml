@@ -3,7 +3,7 @@
 # Reference: http://www.mkdocs.org/user-guide/configuration/
 #
 site_name: 'OWF Learn / QGIS'
-pages:
+nav:
 - Home: index.md
 - Introduction: introduction.md
 - Install QGIS: install-qgis/install-qgis.md
@@ -11,22 +11,35 @@ pages:
   - Overview: 'map-config/overview.md'
 - 'Map Layers':
   - Overview: 'map-layers/overview.md'
+  - 'Tiled Layers': 'map-layers/tiled-layers.md'
   - 'GeoJSON (vector)': 'map-layers/vector-geojson.md'
 - 'Automating Processing':
   - Overview: 'automation/overview.md'
 - 'Resources': resources.md
 # ------- configuration properties ---------------
-# Use Material theme
-# - installation notes:  https://github.com/squidfunk/mkdocs-material
-theme: material
-#theme: readthedocs
-# Don't indicate the repo because Edit will be shown on every page (don't want that in deployed mode)
-# - Also see edit_uri if repo_url is specified
-#repo_url:  https://github.com/OpenWaterFoundation/owf-learn-qgis
-site_description:  'Open Water Foundation Learn QGIS'
-site_author:  'Open Water Foundation'
-site_favicon:  'images/OWF-Logo-Favicon-32x32.png'
-copyright:  'Copyright Open Water Foundation'
+# Alphabetize
+# ------------------------------------------------
+copyright:  'Copyright 2016-2019, Open Water Foundation'
+# ------------------------------------------------
 # Use extra CSS to customize styles, based o
 extra_css:
   - 'css/extra-material-theme.css'
+# ------------------------------------------------
+# Google Analytics
+# - see:  https://squidfunk.github.io/mkdocs-material/getting-started/#google-analytics
+google_analytics:
+ - 'UA-135465513-1'
+ - auto
+# ------------------------------------------------
+site_author:  'Open Water Foundation'
+site_description:  'Open Water Foundation Learn QGIS'
+# ------------------------------------------------
+# Use Material theme
+# - installation notes:  https://github.com/squidfunk/mkdocs-material
+theme:
+  name: material
+  favicon: 'images/OWF-Logo-Favicon-32x32.png'
+# ------------------------------------------------
+# Don't indicate the repo because Edit will be shown on every page (don't want that in deployed mode)
+# - Also see edit_uri if repo_url is specified
+#repo_url:  https://github.com/OpenWaterFoundation/owf-learn-qgis

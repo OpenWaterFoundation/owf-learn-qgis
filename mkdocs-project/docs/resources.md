@@ -1,4 +1,4 @@
-# Learn QGIS / Resources #
+# QGIS / Resources #
 
 The following resources are useful, organized alphabetically.
 

@@ -4,8 +4,8 @@ This documentation provides resources to learn how to use the [Quantum GIS (QGIS
 QGIS is free and open source [Geographic Information System (GIS)](https://en.wikipedia.org/wiki/Geographic_information_system) software.
 QGIS is an alternative to the commercial [Esri ArcGIS software](https://www.arcgis.com),
 in particular for individuals and organizations that cannot afford the cost of ArcGIS software
-and/or may only infrequently use GIS tools.
-Both QGIS and ArcGIS offer desktop versions and integrate with web components.
+or may only infrequently use GIS tools.
+Both QGIS and ArcGIS offer desktop versions and integrate with web mapping tools.
 
 This documentation has been written based on experience using QGIS at the Open Water Foundation (OWF),
 with focus on tasks that are useful in water resources and solutions.
@@ -19,7 +19,7 @@ See also:
 
 ## About the Open Water Foundation ##
 
-The [Open Water Foundation](http://openwaterfoundation.org) is a 501(c)3 nonprofit social enterprise that focuses
+The [Open Water Foundation](http://openwaterfoundation.org) is a nonprofit social enterprise that focuses
 on developing and supporting open source software for water resources, so that organizations can make better decisions about water.
 OWF has created this documentation to educate its staff, other developers, and clients that use QGIS for spatial data visualization and processing.
 
@@ -38,6 +38,7 @@ The following main sections are included in this documentation:
 - [Map Configuration](map-config/overview.md) - information about creating maps
 - [Map Layers](map-layers/overview.md) - information about map layers 
 - [Automating Processing](automation/overview.md) - information about how to automate GIS processes
+- [Resources](resources.md) - useful resources
 
 Use the navigation menus on the left to navigate the full documentation.
 Use the navigation menus on the right to navigate sections within the current page.
@@ -54,5 +55,4 @@ The source files for this documentation are maintained in a GitHub repository:  
 
 ## Release Notes ##
 
-See the [Release Notes in the GitHub Project](https://github.com/OpenWaterFoundation/owf-learn-qgis#release-notes),
-although the GitHub issues tracker is most often used to track progress.
+The GitHub repository issues tracker is most often used to track progress.
