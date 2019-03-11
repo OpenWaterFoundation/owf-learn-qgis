@@ -67,7 +67,7 @@ at which time layer properties can be edited if desired.
 2. Select the ***Protocol*** to be ***GeoJSON***.
 3. Specify the URI to a GeoJSON file:
 	* web service URI that returns raw GeoJSON format
-	* static website URI (for example: `https://raw.githubusercontent.com/johan/world.geo.json/master/countries/USA/CO/Larimer.geo.json`)
+	* static website URI (for example: `http://data.openwaterfoundation.org/co/cdss-data-spatial-bybasin/data-files/CO-DWR-WaterDistrictBoundaries-District03-20180228.geojson`)
 
 ![Add GeoJSON](vector-geojson-images/add-geojson-uri.png)
 
