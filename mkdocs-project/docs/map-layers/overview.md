@@ -33,11 +33,23 @@ Each shape also has attributes (also called properties), which are commonly desc
 In QGIS, the attribute table can be displayed by selecting a layer in the ***Layers*** panel, right-clicking,
 and selecting the ***Open Attribute Table*** menu, as shown below.
 
+**<p style="text-align: center;">
 ![Layer open attribute table](overview-images/open-attribute-table.png)
+</p>**
+
+**<p style="text-align: center;">
+Menu to Open a Layer's Attribute Table (<a href="../overview-images/open-attribute-table.png">see full-size image</a>)
+</p>**
 
 An example attribute table is shown in the following figure.
 
+**<p style="text-align: center;">
 ![Attribute table](overview-images/attribute-table.png)
+</p>**
+
+**<p style="text-align: center;">
+Attribute Table View for a Layer (<a href="../overview-images/attribute-table.png">see full-size image</a>)
+</p>**
 
 ## Adding Layers to Map Project ##
 
