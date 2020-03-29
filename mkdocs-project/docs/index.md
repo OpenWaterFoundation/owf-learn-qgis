@@ -4,18 +4,21 @@ This documentation provides resources to learn how to use the [Quantum GIS (QGIS
 QGIS is free and open source [Geographic Information System (GIS)](https://en.wikipedia.org/wiki/Geographic_information_system) software.
 QGIS is an alternative to the commercial [Esri ArcGIS software](https://www.arcgis.com),
 in particular for individuals and organizations that cannot afford the cost of ArcGIS software
-or may only infrequently use GIS tools.
-Both QGIS and ArcGIS offer desktop versions and integrate with web mapping tools.
+or may have infrequent needs for GIS software.
+Both QGIS and ArcGIS offer desktop software, Python development libraries, and integrate with web mapping tools.
 
 This documentation has been written based on experience using QGIS at the Open Water Foundation (OWF),
 with focus on tasks that are useful in water resources and solutions.
-This documentation focuses on the QGIS desktop software,
-although web technologies and data standards may be used to consume and publish data.
+This documentation focuses on the QGIS version 3 desktop software and support of Python application development efforts.
 
 See also:
 
 * [QGIS Website](https://qgis.org/en/site/)
-* [Open Water Foundation GeoProcessor](http://learn.openwaterfoundation.org/owf-app-geoprocessor-python-doc-user/) - software that automates geospatial processing, based on QGIS
+* [Esri ArcGIS Pro](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview)
+* Open Water Foundation GeoProcessor Software - software that automates geospatial processing
+	+ [GeoProcessor User Documentation](http://software.openwaterfoundation.org/geoprocessor/latest/doc-user/)
+	+ [GeoProcessor Developer Documentation](http://software.openwaterfoundation.org/geoprocessor/latest/doc-dev/)
+	* [GeoProcessor Download page](http://software.openwaterfoundation.org/geoprocessor/)
 
 ## About the Open Water Foundation ##
 
