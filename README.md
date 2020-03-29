@@ -3,6 +3,8 @@
 This repository contains the [Open Water Foundation (OWF)](http://openwaterfoundation.org/) QGIS training materials,
 which provides guidance for using the [Quantum GIS (QGIS)](http://www.qgis.org/en/site/) open source Geographic Information System (GIS) software.
 The documentation is written for the layperson in order to encourage use of QGIS.
+OWF also uses the documentation to train software developers and users,
+for example for the OWF [GeoProcessor](http://software.openwaterfoundation.org/geoprocessor/latest/doc-user/) software.
 
 See the deployed [OWF / Learn QGIS](http://learn.openwaterfoundation.org/owf-learn-qgis/) documentation.
 
@@ -33,6 +35,7 @@ owf-learn-qgis/         Main repository folder.
     mkdocs.yml          MkDocs configuration file for website.
     docs/               Folder containing source Markdown and other files for website.
     site/               Folder created by MkDocs containing the static website - ignored using .gitignore.
+  resources/            Additional resources that feeds into content pages.
   z-local-notes/        Folder for local notes that are not committed to the repository.
 
 ```
