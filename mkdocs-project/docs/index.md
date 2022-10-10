@@ -1,6 +1,6 @@
 # Open Water Foundation / Learn QGIS #
 
-This documentation provides resources to learn how to use the [Quantum GIS (QGIS)](http://www.qgis.org) software.
+This documentation provides resources to learn how to use the [Quantum GIS (QGIS)](https://www.qgis.org) software.
 QGIS is free and open source [Geographic Information System (GIS)](https://en.wikipedia.org/wiki/Geographic_information_system) software.
 QGIS is an alternative to the commercial [Esri ArcGIS software](https://www.arcgis.com),
 in particular for individuals and organizations that cannot afford the cost of ArcGIS software
@@ -16,17 +16,17 @@ See also:
 * [QGIS Website](https://qgis.org/en/site/)
 * [Esri ArcGIS Pro](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview)
 * Open Water Foundation GeoProcessor Software - software that automates geospatial processing
-	+ [GeoProcessor User Documentation](http://software.openwaterfoundation.org/geoprocessor/latest/doc-user/)
-	+ [GeoProcessor Developer Documentation](http://software.openwaterfoundation.org/geoprocessor/latest/doc-dev/)
-	* [GeoProcessor Download page](http://software.openwaterfoundation.org/geoprocessor/)
+	+ [GeoProcessor User Documentation](https://software.openwaterfoundation.org/geoprocessor/latest/doc-user/)
+	+ [GeoProcessor Developer Documentation](https://software.openwaterfoundation.org/geoprocessor/latest/doc-dev/)
+	* [GeoProcessor Download page](https://software.openwaterfoundation.org/geoprocessor/)
 
 ## About the Open Water Foundation ##
 
-The [Open Water Foundation](http://openwaterfoundation.org) is a nonprofit social enterprise that focuses
+The [Open Water Foundation](https://openwaterfoundation.org) is a nonprofit social enterprise that focuses
 on developing and supporting open source software for water resources, so that organizations can make better decisions about water.
 OWF has created this documentation to educate its staff, other developers, and clients that use QGIS for spatial data visualization and processing.
 
-See also other [OWF learning resources](http://learn.openwaterfoundation.org).
+See also other [OWF learning resources](https://learn.openwaterfoundation.org).
 
 ## How to Use this Documentation ##
 
