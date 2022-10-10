@@ -207,7 +207,7 @@ The QGIS installation process on Windows depends on whether the standalone or OS
 
 **These instructions were created for QGIS standalone 3.26 installed on a Windows 11 computer.**
 
-See also [older instructions for QGIS 3.12](install-qgis-windows-3.12/install-qgis.md).
+See also [older instructions for QGIS 3.12](install-qgis-windows-3-12/install-qgis.md).
 
 See the [QGIS download page](https://www.qgis.org/en/site/forusers/download.html)
 for a QGIS standalone installer version.
@@ -557,7 +557,7 @@ which is useful when troubleshooting.
 QGIS software typically needs to be updated in the following cases:
 
 *   A maintenance release fixes bugs or provides a useful new feature.
-    For example QGIS version 3.12.2 is released and updates previously installed 3.12.1.
+    For example, QGIS version 3.12.2 is released and provides updates to the previously installed 3.12.1.
 *   A version that was previously installed as the current release needs to be updated to be the long-term release.
     This has the side-effect that (on Windows) the `C:\Program Files\QGIS 3.12\apps\qgis-ltr\python` folder is used for long-term release
     rather than `C:\Program Files\QGIS 3.12\apps\qgis\python` folder that is used for latest release.
