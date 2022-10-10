@@ -1,12 +1,12 @@
 # owf-learn-qgis #
 
-This repository contains the [Open Water Foundation (OWF)](http://openwaterfoundation.org/) QGIS training materials,
-which provides guidance for using the [Quantum GIS (QGIS)](http://www.qgis.org/en/site/) open source Geographic Information System (GIS) software.
+This repository contains the [Open Water Foundation (OWF)](https://openwaterfoundation.org/) QGIS training materials,
+which provides guidance for using the [Quantum GIS (QGIS)](https://www.qgis.org/en/site/) open source Geographic Information System (GIS) software.
 The documentation is written for the layperson in order to encourage use of QGIS.
 OWF also uses the documentation to train software developers and users,
-for example for the OWF [GeoProcessor](http://software.openwaterfoundation.org/geoprocessor/latest/doc-user/) software.
+for example for the OWF [GeoProcessor](https://software.openwaterfoundation.org/geoprocessor/latest/doc-user/) software.
 
-See the deployed [OWF / Learn QGIS](http://learn.openwaterfoundation.org/owf-learn-qgis/) documentation.
+See the deployed [OWF / Learn QGIS](https:s//learn.openwaterfoundation.org/owf-learn-qgis/) documentation.
 
 * [Repository Contents](#repository-contents)
 * [Development Environment](#development-environment)
@@ -44,7 +44,7 @@ owf-learn-qgis/         Main repository folder.
 
 The development environment for contributing to this project requires installation of Python, MkDocs, and Material MkDocs theme.
 Python 3 and MkDocs 1+ have been used for development.
-See the [OWF / Learn MkDocs](http://learn.openwaterfoundation.org/owf-learn-mkdocs/)
+See the [OWF / Learn MkDocs](https://learn.openwaterfoundation.org/owf-learn-mkdocs/)
 documentation for more information about MkDocs.
 
 ## Style Guide ##
@@ -89,7 +89,7 @@ Contribute to the documentation as follows:
 
 ## Maintainers ##
 
-This repository is maintained by the [Open Water Foundation](http://openwaterfoundation.org/).
+This repository is maintained by the [Open Water Foundation](https://openwaterfoundation.org/).
 
 ## Release Notes ##
 

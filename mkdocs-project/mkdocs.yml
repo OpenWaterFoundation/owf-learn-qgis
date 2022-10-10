@@ -2,7 +2,7 @@
 # Use hash-comments to comment out pages have not been written
 # Reference: http://www.mkdocs.org/user-guide/configuration/
 #
-site_name: 'OWF Learn / QGIS'
+site_name: 'Learn / QGIS'
 nav:
 - Home: index.md
 - Introduction: introduction.md
@@ -25,11 +25,12 @@ copyright:  'Copyright 2016-2019, Open Water Foundation'
 extra_css:
   - 'css/extra-material-theme.css'
 # ------------------------------------------------
-# Google Analytics
+# Google Analytics:
 # - see:  https://squidfunk.github.io/mkdocs-material/getting-started/#google-analytics
-google_analytics:
- - 'UA-135465513-1'
- - auto
+extra:
+  analytics:
+    provider: google
+    property: 'G-KJFMBY739T'
 # ------------------------------------------------
 site_author:  'Open Water Foundation'
 site_description:  'Open Water Foundation Learn QGIS'
